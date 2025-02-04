@@ -97,5 +97,5 @@ def simulate_solar_system():
 
     return render_template('index.html', image_path=image_path)
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     app.run(debug=True)

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 import os
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/')
 def simulate_solar_system():
